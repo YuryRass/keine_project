@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<script src="https://kit.fontawesome.com/f4984055aa.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/animate.css"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/css/lightgallery.min.css">
+    <script src="https://kit.fontawesome.com/f4984055aa.js" crossorigin="anonymous"></script>
+	<title>Навигация для меню</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="d-flex align-items-center justify-content-lg-between">
+				<div class="logo">
+					<a href="#">
+						<img src="./img/logo.png" class="img">
+					</a>
+				</div>
+				<a href="#" class="button button-outline button-hed" data-modal-toggle="#autch-modal">Войти \ Регистрация</a>
+				<nav class="cd-main-nav-wrapper">
+					<ul class="cd-main-nav">
+						<li><a href="#calc">Калькулятор доходности</a></li>
+						<li><a href="#project">О проекте</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul> <!-- .cd-main-nav -->
+				</nav> <!-- .cd-main-nav-wrapper -->
+				<a href="#0" class="cd-nav-trigger"><span></span></a>
+			</div>
+		</div>
+	</header>
+	
+	<div class="cd-main-content">
+
+		<div class="section_main-screen wow bounceInUp center" data-wow-delay="0s" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 m-order-2">
+						<div class="main-screen_title mb-40">
+							Инвестируйте в Keine Exchange и обеспечьте себе стабильный ежедневный доход
+						</div>
+						<div class="main-screen_desc mb-40">
+							Наскучили банковские депозиты? Устали от непредсказуемости криптовалютного рынка? Мы предлагаем инвестировать в <b>самый высокоприбыльный бизнес 2024 года</b> и начать зарабатывать по-крупному вместе с нами!
+						</div>
+						<div class="wap-button d-flex nlch-r-lg-40 align-items-center mb-30 mb-lg-0">
+							<a href="#" class="button button-solid"><span class="mr-20">Узнать больше</span><i class="fa-solid fa-arrow-right"></i></a>
+							<a href="#" class="main-screen_link d-none d-lg-block"><span class="mr-20">Калькулятор доходности</a>
+						</div>
+					</div>
+					<div class="col-lg-6 m-order-1">
+						<div class="wrap-block d-flex justify-content-between align-items-end nlch-r-lg-30 mb-30">
+							<div class="main-screen_wrap-img">
+								<img src="./img/img-1.png" class="img">
+							</div>
+							<div class="main-screen_offset">
+							<div class="main-screen_info d-none d-lg-block">
+								<div class="main-screen_num">46+</div>
+								<div class="main-screen_num_desc mb-20">Количество офисов Keine Exchange, работающих в РФ, СНГ и других странах</div>
+								<div class="main-screen_num-line"><div class="main-screen_num-line-active"></div></div>
+							</div>
+							</div>
+						</div>
+						<div class="wrap-block mb-30 mb-lg-0">
+							<div class="main-screen_abount">
+								<div class="main-screen_abount-title-wrap d-flex align-items-center mb-15">
+									<div class="main-screen_abount-title-hr"></div>
+									<div class="main-screen_abount-title">Keine Exchange</div>
+								</div>
+								<div class="main-screen_abount-desc">Самый высоко- прибыльный бизнес 2024 года</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="yakor" id="calc"></div>
+
+		<div class="section_calc py-lg-90 wow bounceInUp center" data-wow-delay="0.5s" data-wow-duration="1.5s">
+			<div class="container">
+
+					<div class="section_calc-wrap row">
+						<div class="col-lg-6">
+							<div class="calc-title mb-20">
+								Используйте наш калькулятор доходности
+							</div>
+							<div class="calc-desc mb-40">
+								чтобы узнать, какую прибыль вы можете получить от инвестиций<br> в <b>Keine Exchange</b>. Выберите срок и сумму инвестиций, чтобы увидеть прогнозируемые результаты
+							</div>
+							<form class="calc-form">
+								<div class="filter__box nlch-b-20 nlch-b-lg-0 d-flex align-items-lg-center align-items-start mb-30">
+									<div class="calc-filter_sub-title">
+										Выбор валюты:
+									</div>
+									<fieldset class="filter-choice-inputs d-flex nlch-r-10">
+									  
+										<div class="radio-block filter-choice-input choice-input d-block">
+										<label for="1" class="radio-block__label choice-input__label d-inline-flex align-items-center">
+											<input type="radio" class="radio-block__input choice-input__input" name="v_interere" id="1" value="RUB" checked>
+											<span class="radio-block__check choice-input__check border-style"></span>
+											<span class="radio-block__caption choice-input__caption d-flex align-items-center nlch-r-5"><img src="./img/icon-2.png"><span>RUB</span></span>
+										</label>
+										</div>
+										<div class="radio-block filter-choice-input choice-input d-block">
+										<label for="2" class="radio-block__label choice-input__label d-inline-flex align-items-center">
+											<input type="radio" class="radio-block__input choice-input__input" name="v_interere" id="2" value="USDT">
+											<span class="radio-block__check choice-input__check border-style"></span>
+											<span class="radio-block__caption choice-input__caption d-flex align-items-center nlch-r-5"><img src="./img/icon-1.png"><span>USDT</span></span>
+										</label>
+										</div> 
+
+									</fieldset>
+								</div>
+								<div class="wrap mb-30">
+									<div class="filter__box flex-row nlch-b-lg-20 nlch-b-lg-0 d-flex align-items-center mb-10">
+										<div class="calc-filter_sub-title">
+											Срок инвестиций:
+										</div>
+										<div class="radio-block__label choice-input__label choice-input d-inline-flex align-items-center">
+											<span class="radio-block__caption choice-input__caption choice-input__caption-no-filtr d-flex align-items-center nlch-r-5"><span>2 месяца</span></span>
+										</div>
+									</div>
+									<div class="range-form_box">
+										<input type="range" class="radius">
+										<div class="d-flex justify-content-between">
+											<div class="clack_moon">1 месяц</div>
+											<div class="clack_moon">12 месяц</div>
+										</div>
+									</div>
+								</div>
+								<div class="wrap mb-40">
+									<div class="filter__box flex-row nlch-b-lg-20 nlch-b-lg-0 d-flex align-items-center mb-10">
+										<div class="calc-filter_sub-title">
+											Сумма инвестиций:
+										</div>
+										<div class="radio-block__label choice-input__label choice-input d-inline-flex align-items-center">
+											<span class="radio-block__caption choice-input__caption choice-input__caption-no-filtr d-flex align-items-center nlch-r-5"><span>50 000 000 ₽</span></span>
+										</div>
+									</div>
+									<div class="range-form_box">
+										<input type="range" class="radius">
+										<div class="d-flex justify-content-between">
+											<div class="clack_moon">50 000 ₽</div>
+											<div class="clack_moon">100 000 000 ₽</div>
+										</div>
+									</div>
+								</div>
+								<button class="button button-solid d-lg-block d-none"><span class="mr-20">Хочу инвестировать!</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+							</form>
+						</div>
+						<div class="col-lg-6 nlch-b-15 mt-30 d-lg-block d-none">
+							<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+								<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+									<div class="wrap_calc_abount_icon">
+										<img src="./img/icon-3.png" class="img">
+									</div>
+									<div class="wrap_calc_abount_title">
+										Мой ежедневный <br>процент
+									</div>
+								</div>	
+								<div class="wrap_calc_abount_num">
+									1%
+								</div>
+
+							</div>
+							<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+								<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+									<div class="wrap_calc_abount_icon">
+										<img src="./img/icon-4.png" class="img">
+									</div>
+									<div class="wrap_calc_abount_title">
+										Каждый день я<br> буду получать
+									</div>
+								</div>
+								<div class="wrap_calc_abount_num">
+									100 <span>RUB</span><br>1 <span>USDT</span>
+								</div>
+							</div>
+							<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+								<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+									<div class="wrap_calc_abount_icon">
+										<img src="./img/icon-5.png" class="img">
+									</div>
+									<div class="wrap_calc_abount_title">
+										В конце срока <br>инвестиций я получу
+									</div>
+								</div>
+								<div class="wrap_calc_abount_num">
+									110 000 <span>RUB</span><br>1100 <span>USDT</span>
+								</div>
+							</div>
+							<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+								<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+									<div class="wrap_calc_abount_icon">
+										<img src="./img/icon-6.png" class="img">
+									</div>
+									<div class="wrap_calc_abount_title">
+										Моя чистая <br>прибыль составит
+									</div>
+								</div>
+								<div class="wrap_calc_abount_num wrap_calc_abount_num_active">
+									10 000 <span>RUB</span><br>100 <span>USDT</span>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="section-hidden d-block d-lg-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 nlch-b-15 mt-30 mb-30">
+						<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+							<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+								<div class="wrap_calc_abount_icon">
+									<img src="./img/icon-3.png" class="img">
+								</div>
+								<div class="wrap_calc_abount_title">
+									Мой ежедневный <br>процент
+								</div>
+							</div>	
+							<div class="wrap_calc_abount_num">
+								1%
+							</div>
+
+						</div>
+						<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+							<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+								<div class="wrap_calc_abount_icon">
+									<img src="./img/icon-4.png" class="img">
+								</div>
+								<div class="wrap_calc_abount_title">
+									Каждый день я<br> буду получать
+								</div>
+							</div>
+							<div class="wrap_calc_abount_num">
+								100 <span>RUB</span><br>1 <span>USDT</span>
+							</div>
+						</div>
+						<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+							<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+								<div class="wrap_calc_abount_icon">
+									<img src="./img/icon-5.png" class="img">
+								</div>
+								<div class="wrap_calc_abount_title">
+									В конце срока <br>инвестиций я получу
+								</div>
+							</div>
+							<div class="wrap_calc_abount_num">
+								110 000 <span>RUB</span><br>1100 <span>USDT</span>
+							</div>
+						</div>
+						<div class="wrap_calc_abount d-flex align-items-center justify-content-between">
+							<div class="wrap_calc_abount_flex d-flex nlch-r-30">
+								<div class="wrap_calc_abount_icon">
+									<img src="./img/icon-6.png" class="img">
+								</div>
+								<div class="wrap_calc_abount_title">
+									Моя чистая <br>прибыль составит
+								</div>
+							</div>
+							<div class="wrap_calc_abount_num wrap_calc_abount_num_active">
+								10 000 <span>RUB</span><br>100 <span>USDT</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wap-button d-flex nlch-r-lg-40 align-items-center mb-30 mb-lg-0">
+					<a href="#" class="button button-solid"><span class="mr-20">Хочу инвестировать!</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="section-pre pb-lg-90 wow bounceInUp center" data-wow-delay="0.5s" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="./img/abount-pic.png" class="img mb-lg-0 mb-30">
+					</div>
+					<div class="col-lg-6">
+						<div class="title_pre mb-30">
+							Keine Exchange — это не просто очередной обменник криптовалюты
+						</div>
+						<div class="desc-pre-1 mb-30">
+							Это история упорства, амбиций и веры в свое дело, воплощенная в крупнейшей сети физических обменных пунктов по всей России
+						</div>
+						<div class="desc-pre-2 mb-30">
+							Это миллиардные обороты, десятки тысяч довольных клиентов и команда профессионалов, которые ежедневно помогают людям выгодно и безопасно обменять свою криптовалюту
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="yakor" id="project"></div>
+
+		<div class="section-abount_index wow bounceInUp center" data-wow-delay="0.5s" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="row section-abount_index-bg d-flex align-items-center">
+					<div class="col-lg-6 mb-30 d-flex align-items-center flex-column">
+						<div class="section-abount_index-desc-1 mb-30">
+							Основателем проекта является <span>Евгений Сапожников</span> — один из немногих криптоэнтузиастов, чье увлечение переросло в суперприбыльное дело всей жизни
+						</div>
+						<div class="section-abount_index-desc-2">
+							С 2011 года он погружен в мир обменных операций, постигая его тонкости и предвосхищая его будущее
+						</div>
+					</div>
+					<div class="col-lg-6 mb-lg-30 mb-60 modal-gallery-video">
+						<a href="https://youtu.be/84p3N-h1tr8" data-poster="https://i.ytimg.com/vi/ZGoujlyWJv8/maxresdefault.jpg" class="section-abount_index_wrap-img modal-gallery__control gallery-play-video">
+							<img src="./img/bg-2.png" class="img">
+							<div class="play_youtube">
+								<img src="./img/play.svg">
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-12 pt-lg-60">
+						<div class="section-abount_index-desc-3">
+							Сегодня Евгений не только успешный предприниматель, но и востребованный спикер на крупнейших криптофорумах (таких как Blockchain Life), а также руководитель Департамента развития трансграничных платежей в РАКИБ
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section-num-img py-lg-90 wow bounceInUp center" data-wow-delay="0.5s" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="section-num-img_title mb-40">
+					Keine Exchange в цифрах
+				</div>
+				<div class="row">
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-1.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								<b>Входим в ТОП</b> по версии самого авторитетного мониторинга обменников <b style="text-decoration:underline;">Bestchange</b>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-2.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								Количество офисов Keine Exchange, работающих в РФ, СНГ и других странах
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-3.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								Год старта работы в сфере обменных операций
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-4.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								Положительных и независимых отзывов на Bestchange
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-5.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								Средний чек по обменной операции в RUB
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-30">
+						<div class="section-num-img_wrap">
+							<img src="./img/num-6.png" class="img mb-30">
+							<div class="section-num-img_desc">
+								Ежемесячный оборот обменника в RUB
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="yakor" id="contacts"></div>
+
+		<div class="section-invest wow bounceInUp center" data-wow-delay="0.5s" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="row section-invest_wrap">
+					<div class="icon-bg"><img src="./img/icon-7.png" class="img"></div>
+					<div class="col-lg-12 mb-40">
+						<div class="section-invest_title mb-30">
+							Инвестиции в Keine Exchange — это автоматизированный процесс, который не требует от вас особых знаний или навыков
+						</div>
+						<div class="section-invest_desc">
+							Хотите стать частью динамично развивающегося бизнеса Keine Exchange? <br>Следуйте этой простой инструкции
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-lg-row justify-content-center nlch-r-lg-15 nlch-b-30 nlch-b-lg-0 ma-0">
+						<div class="col-lg-3-0">
+							<div class="krug-1">
+								<div class="krug-2">
+									<div class="section-invest_block d-flex flex-column align-items-center justify-content-center">
+										<div class="section-invest_block_num">1</div>
+										<div class="section-invest_block_desc">Зарегистрируйтесь<br>на сайте</div>
+										<div class="section-invest_block_link"><button class="button button-solid button-transparent"><span class="mr-20">Перейти</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3-0">
+							<div class="section-invest_block-2 d-flex flex-column align-items-center justify-content-center">
+								<div class="section-invest_block-2_num">2</div>
+								<div class="section-invest_block-2_desc">Выберите тариф <br>в своем личном <br>кабинете</div>
+							</div>
+						</div>
+						<div class="col-lg-3-0">
+							<div class="section-invest_block-2 section-invest_block-2_bg-2 d-flex flex-column align-items-center justify-content-center">
+								<div class="section-invest_block-2_num">3</div>
+								<div class="section-invest_block-2_desc">Заключите договор - онлайн или в <br>офисе</div>
+							</div>
+						</div>
+						<div class="col-lg-3-0">
+							<div class="section-invest_block-2 section-invest_block-2_bg-3 d-flex flex-column align-items-center justify-content-center">
+								<div class="section-invest_block-2_num">4</div>
+								<div class="section-invest_block-2_desc">Пополните счет - наличными или <br>безналичным способом</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-12">
+						<div class="section-invest_footer">
+							<div class="section-invest_footer-title mb-10">
+								Хотите обсудить детали лично? <br>Приходите к нам в офис!
+							</div>
+							<div class="section-invest_desc mb-30">
+								Оставьте заявку, и мы с вами свяжемся для согласования времени встречи.
+							</div>
+							<div class="section-invest_footer_wrap d-flex nlch-r-20">
+								<div class="section-invest_footer-img d-flex align-items-center justify-content-center">
+									<img src="./img/icon-8.svg"class="img">
+								</div>
+								<div class="section-invest_footer-desc">
+									Москва, Пресненская набережная, дом 12<br>Башня Федерация
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="icon-bg-2"><img src="./img/icon-9.png" class="img"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section-footer">
+			<div class="container">
+				<div class="section-footer_wrap d-flex flex-column flex-lg-row justify-content-between align-items-center nlch-b-30 nlch-b-lg-0">
+					<div class="footer-logo d-flex flex-column flex-lg-row nlch-r-lg-60 justify-content-between align-items-center nlch-b-30 nlch-b-lg-0">
+						<a href="#" class="d-block"><img src="./img/logo-white.png" class="img"></a>
+						<div class="footer-copy">
+							Авторское право © 2024 Keine Exchange<br>
+							Все права защищены							
+						</div>
+					</div>
+					<div class="social-footer d-flex nlch-r-15">
+						<a href="#" class="social-footer-link">
+								<img src="./img/inst.svg" class="img social-footer_img">
+						</a>
+						<a href="#" class="social-footer-link">
+								<img src="./img/tg.svg" class="img social-footer_img">
+						</a>
+						<a href="#" class="social-footer-link">
+								<img src="./img/vk.svg" class="img social-footer_img">
+						</a>
+						<a href="#" class="social-footer-link">
+								<img src="./img/maps.svg" class="img social-footer_img">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+    <div class="md-modal callback-modal modal-def abst-fill" id="callback-modal">
+        <div class="modal-def-dialog md-modal-dialog js-fixed-elem">
+          
+          <div class="callback-modal-content">
+            <span class="modal-def-close close-button js-close">×</span>
+            <div class="callback-modal-header section-title section-title--small section-title--white text-center">
+              Оставить заявку
+            </div>
+			<div class="callback-desc">
+				Заполните эту короткую форму, и мы свяжемся с вами, чтобы рассказать <br>подробнее об инвестиционном предложении
+			</div>
+            <div class="callback-modal-body">
+              <form action="" class="callback-modal-form nlch-b-15">
+                <div class="field field--w-100 pos-r-block">
+                  <label class="field__label d-block">
+					<div class="field__icon d-flex align-items-center justify-content-center">
+						<img src="./img/Vector.svg" class="img">
+					</div>
+                    <input type="text" class="field__input pos-r-block" placeholder="Ваше имя и фамилия" required="">
+                  </label>
+                </div>
+                <div class="field field--w-100 pos-r-block">
+					<label class="field__label d-block">
+						<div class="field__icon d-flex align-items-center justify-content-center">
+							<img src="./img/Vector-1.svg" class="img">
+						</div>
+					  <input type="text" class="field__input pos-r-block" placeholder="E-mail" required="">
+					</label>
+				</div>
+                <div class="field field--w-100 pos-r-block">
+                  <label class="field__label d-block">
+					<div class="field__icon d-flex align-items-center justify-content-center">
+						<img src="./img/Vector-2.svg" class="img">
+					</div>
+                    <input type="tel" class="field__input pos-r-block" placeholder="Ваш телефон *" required="">
+                  </label>
+                </div>
+                <div class="field field--w-100 pos-r-block">
+					<label class="field__label d-block">
+						<div class="field__icon d-flex align-items-center justify-content-center">
+							<img src="./img/Vector-3.svg" class="img">
+						</div>
+					  <input type="text" class="field__input pos-r-block" placeholder="Ваш Telegram" required="">
+					</label>
+				</div>
+                <div class="field field--w-100 pos-r-block">
+					<label class="field__label d-block">
+						<div class="field__icon d-flex align-items-center justify-content-center">
+							<img src="./img/Vector.svg" class="img">
+						</div>
+					  <input type="text" class="field__input pos-r-block" placeholder="Введите имя пригласившего" required="">
+					</label>
+				</div>
+				<div class="wap-button d-flex align-items-center justify-content-center mb-30">
+            	    <button class="button button-solid mt-40"><span class="mr-20">Оставить заявку</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+	  <div class="md-modal-overlay side-modal-overlay abst-fill"></div>
+
+	  <div class="md-modal callback-modal modal-def abst-fill" id="autch-modal">
+        <div class="modal-def-dialog md-modal-dialog js-fixed-elem">
+          
+          <div class="callback-modal-content">
+            <span class="modal-def-close close-button js-close">×</span>
+            <div class="callback-modal-header section-title section-title--small section-title--white text-center">
+              Оставить заявку
+            </div>
+			<div class="callback-desc">
+				Личный кабинет инвестора находится в разработке. <br>
+Однако вы уже можете оставить заявку, наш менеджер свяжется с вами
+			</div>
+            <div class="callback-modal-body">
+				<div class="wap-button d-flex align-items-center justify-content-center mb-30">
+            	    <button class="button button-solid" data-modal-toggle="#callback-modal"><span class="mr-20">Оставить заявку</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="md-modal-overlay side-modal-overlay abst-fill"></div>
+
+
+	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" integrity="sha512-BABFxitBmYt44N6n1NIJkGOsNaVaCs/GpaJwDktrfkWIBFnMD6p5l9m+Kc/4SLJSJ4mYf+cstX98NYrsG/M9ag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/progressbar.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/js/lightgallery.min.js"></script>
+<script src="js/lg-thumbnail.min.js"></script>
+<script src="js/lg-video.min.js"></script>
+<script src="js/lg-zoom.min.js"></script>
+<script src="js/lg-rotate.min.js"></script>
+<script src="js/jquery.zoom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn" crossorigin="anonymous"></script>
+<script>
+	new WOW().init();
+ </script>
+
+
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
