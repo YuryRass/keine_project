@@ -2846,13 +2846,94 @@ header::before {
   text-align: center;
   min-height: 21.5rem;
 }
-.krug-1 {
-  border: 1rem solid rgb(181 210 75 / 20%);
-  border-radius: 100rem;
+.krug-1 {z-index: 2;position: relative;padding: 1rem;background: rgb(181 209 75);border-radius: 100rem;}
+.krug-1::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height:100%;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-animation: r5 1s 1s ease-out infinite;
+  -moz-animation: r5 1s 1s ease-out infinite;
+  animation: r5 1s 1s ease-out infinite;
 }
-.krug-2 {
-  border: 1rem solid rgb(181 210 75 / 45%);
-  border-radius: 100rem;
+.krug-2 {z-index: 2;position: relative;background: rgb(181 210 75);border-radius: 100rem;padding:1rem;}
+.krug-2::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height:100%;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-animation: r5 1s 1s ease-out infinite;
+  -moz-animation: r5 1s 1s ease-out infinite;
+  animation: r5 1s 1s ease-out infinite;
+}
+@-webkit-keyframes r5 {
+  0% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 0px #333, 0 0 0px 0px rgba(26, 140, 255, 0);
+  }
+  10% {
+    box-shadow: 0 0 8px 6px #1a8cff, 0 0 12px 10px #333, 0 0 12px 14px #1a8cff;
+  }
+  100% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 40px #333, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@-moz-keyframes r5 {
+  0% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 0px #333, 0 0 0px 0px rgba(26, 140, 255, 0);
+  }
+  10% {
+    box-shadow: 0 0 8px 6px #1a8cff, 0 0 12px 10px #333, 0 0 12px 14px #1a8cff;
+  }
+  100% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 40px #333, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@keyframes r5 {
+  0% {
+    box-shadow: 0 0 0px 0px rgba(26, 140, 255, 0), 0 0 0px 0px rgb(181 210 75 / 50%), 0 0 0px 0px rgba(26, 140, 255, 0);
+  }
+  10% {
+    box-shadow: 0 0 0px 0px #b5d24b00, 0 0 0px 0px rgb(181 210 75), 0 0 0px 0px #b5d42900;
+  }
+  100% {
+    box-shadow: 0 0 0px 0px rgba(26, 140, 255, 0), 0 0 0px 20px rgb(205 240 74), 0 0 0px 20px rgba(26, 140, 255, 0);
+  }
+}
+@-webkit-keyframes r25 {
+  from {
+    box-shadow: 0 0 8px 6px #ff8c1a, 0 0 12px 10px #333, 0 0 12px 14px #ff8c1a;
+  }
+  to {
+    box-shadow: 0 0 8px 6px rgba(255, 140, 26, 0), 0 0 4px 40px #333, 0 0 4px 41px rgba(255, 140, 26, 0);
+  }
+}
+@-moz-keyframes r25 {
+  from {
+    box-shadow: 0 0 8px 6px #ff8c1a, 0 0 12px 10px #333, 0 0 12px 14px #ff8c1a;
+  }
+  to {
+    box-shadow: 0 0 8px 6px rgba(255, 140, 26, 0), 0 0 4px 40px #333, 0 0 4px 41px rgba(255, 140, 26, 0);
+  }
+}
+@keyframes r25 {
+  from {
+    box-shadow: 0 0 8px 6px #ff8c1a, 0 0 12px 10px #333, 0 0 12px 14px #ff8c1a;
+  }
+  to {
+    box-shadow: 0 0 8px 6px rgba(255, 140, 26, 0), 0 0 4px 40px #333, 0 0 4px 41px rgba(255, 140, 26, 0);
+  }
 }
 .button-transparent {
   background: transparent;
@@ -2864,6 +2945,8 @@ header::before {
   min-height:21.5rem;
   background: #29265B;
   padding: 0 1rem;
+  z-index: 3;
+  position: relative;
 }
 .section-invest_block-2_num {
   font-family: "Unbounded", sans-serif;
